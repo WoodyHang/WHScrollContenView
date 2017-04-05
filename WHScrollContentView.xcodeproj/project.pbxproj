@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F080F6D1E94BACB004B5E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F6C1E94BACB004B5E95 /* AppDelegate.swift */; };
+		8F080F6F1E94BACB004B5E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F6E1E94BACB004B5E95 /* ViewController.swift */; };
+		8F080F721E94BACB004B5E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F080F701E94BACB004B5E95 /* Main.storyboard */; };
+		8F080F741E94BACB004B5E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F080F731E94BACB004B5E95 /* Assets.xcassets */; };
+		8F080F771E94BACB004B5E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F080F751E94BACB004B5E95 /* LaunchScreen.storyboard */; };
+		8F080F821E94BACB004B5E95 /* WHScrollContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F811E94BACB004B5E95 /* WHScrollContentViewTests.swift */; };
+		8F080F8D1E94BACB004B5E95 /* WHScrollContentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F8C1E94BACB004B5E95 /* WHScrollContentViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F080F7E1E94BACB004B5E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F080F611E94BACB004B5E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F080F681E94BACB004B5E95;
+			remoteInfo = WHScrollContentView;
+		};
+		8F080F891E94BACB004B5E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F080F611E94BACB004B5E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F080F681E94BACB004B5E95;
+			remoteInfo = WHScrollContentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F080F691E94BACB004B5E95 /* WHScrollContentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHScrollContentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F080F6C1E94BACB004B5E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F080F6E1E94BACB004B5E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F080F711E94BACB004B5E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F080F731E94BACB004B5E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F080F761E94BACB004B5E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F080F781E94BACB004B5E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F080F7D1E94BACB004B5E95 /* WHScrollContentViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHScrollContentViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F080F811E94BACB004B5E95 /* WHScrollContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHScrollContentViewTests.swift; sourceTree = "<group>"; };
+		8F080F831E94BACB004B5E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F080F881E94BACB004B5E95 /* WHScrollContentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHScrollContentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F080F8C1E94BACB004B5E95 /* WHScrollContentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHScrollContentViewUITests.swift; sourceTree = "<group>"; };
+		8F080F8E1E94BACB004B5E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F080F661E94BACB004B5E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F080F7A1E94BACB004B5E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F080F851E94BACB004B5E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F080F601E94BACB004B5E95 = {
+			isa = PBXGroup;
+			children = (
+				8F080F6B1E94BACB004B5E95 /* WHScrollContentView */,
+				8F080F801E94BACB004B5E95 /* WHScrollContentViewTests */,
+				8F080F8B1E94BACB004B5E95 /* WHScrollContentViewUITests */,
+				8F080F6A1E94BACB004B5E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F080F6A1E94BACB004B5E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F080F691E94BACB004B5E95 /* WHScrollContentView.app */,
+				8F080F7D1E94BACB004B5E95 /* WHScrollContentViewTests.xctest */,
+				8F080F881E94BACB004B5E95 /* WHScrollContentViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F080F6B1E94BACB004B5E95 /* WHScrollContentView */ = {
+			isa = PBXGroup;
+			children = (
+				8F080F6C1E94BACB004B5E95 /* AppDelegate.swift */,
+				8F080F6E1E94BACB004B5E95 /* ViewController.swift */,
+				8F080F701E94BACB004B5E95 /* Main.storyboard */,
+				8F080F731E94BACB004B5E95 /* Assets.xcassets */,
+				8F080F751E94BACB004B5E95 /* LaunchScreen.storyboard */,
+				8F080F781E94BACB004B5E95 /* Info.plist */,
+			);
+			path = WHScrollContentView;
+			sourceTree = "<group>";
+		};
+		8F080F801E94BACB004B5E95 /* WHScrollContentViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F080F811E94BACB004B5E95 /* WHScrollContentViewTests.swift */,
+				8F080F831E94BACB004B5E95 /* Info.plist */,
+			);
+			path = WHScrollContentViewTests;
+			sourceTree = "<group>";
+		};
+		8F080F8B1E94BACB004B5E95 /* WHScrollContentViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F080F8C1E94BACB004B5E95 /* WHScrollContentViewUITests.swift */,
+				8F080F8E1E94BACB004B5E95 /* Info.plist */,
+			);
+			path = WHScrollContentViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F080F681E94BACB004B5E95 /* WHScrollContentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F080F911E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentView" */;
+			buildPhases = (
+				8F080F651E94BACB004B5E95 /* Sources */,
+				8F080F661E94BACB004B5E95 /* Frameworks */,
+				8F080F671E94BACB004B5E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHScrollContentView;
+			productName = WHScrollContentView;
+			productReference = 8F080F691E94BACB004B5E95 /* WHScrollContentView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F080F7C1E94BACB004B5E95 /* WHScrollContentViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F080F941E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentViewTests" */;
+			buildPhases = (
+				8F080F791E94BACB004B5E95 /* Sources */,
+				8F080F7A1E94BACB004B5E95 /* Frameworks */,
+				8F080F7B1E94BACB004B5E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F080F7F1E94BACB004B5E95 /* PBXTargetDependency */,
+			);
+			name = WHScrollContentViewTests;
+			productName = WHScrollContentViewTests;
+			productReference = 8F080F7D1E94BACB004B5E95 /* WHScrollContentViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F080F871E94BACB004B5E95 /* WHScrollContentViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F080F971E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentViewUITests" */;
+			buildPhases = (
+				8F080F841E94BACB004B5E95 /* Sources */,
+				8F080F851E94BACB004B5E95 /* Frameworks */,
+				8F080F861E94BACB004B5E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F080F8A1E94BACB004B5E95 /* PBXTargetDependency */,
+			);
+			name = WHScrollContentViewUITests;
+			productName = WHScrollContentViewUITests;
+			productReference = 8F080F881E94BACB004B5E95 /* WHScrollContentViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F080F611E94BACB004B5E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Woodyhang;
+				TargetAttributes = {
+					8F080F681E94BACB004B5E95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WR5XKZ83R7;
+						ProvisioningStyle = Automatic;
+					};
+					8F080F7C1E94BACB004B5E95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WR5XKZ83R7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F080F681E94BACB004B5E95;
+					};
+					8F080F871E94BACB004B5E95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WR5XKZ83R7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F080F681E94BACB004B5E95;
+					};
+				};
+			};
+			buildConfigurationList = 8F080F641E94BACB004B5E95 /* Build configuration list for PBXProject "WHScrollContentView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F080F601E94BACB004B5E95;
+			productRefGroup = 8F080F6A1E94BACB004B5E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F080F681E94BACB004B5E95 /* WHScrollContentView */,
+				8F080F7C1E94BACB004B5E95 /* WHScrollContentViewTests */,
+				8F080F871E94BACB004B5E95 /* WHScrollContentViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F080F671E94BACB004B5E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F080F771E94BACB004B5E95 /* LaunchScreen.storyboard in Resources */,
+				8F080F741E94BACB004B5E95 /* Assets.xcassets in Resources */,
+				8F080F721E94BACB004B5E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F080F7B1E94BACB004B5E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F080F861E94BACB004B5E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F080F651E94BACB004B5E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F080F6F1E94BACB004B5E95 /* ViewController.swift in Sources */,
+				8F080F6D1E94BACB004B5E95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F080F791E94BACB004B5E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F080F821E94BACB004B5E95 /* WHScrollContentViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F080F841E94BACB004B5E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F080F8D1E94BACB004B5E95 /* WHScrollContentViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F080F7F1E94BACB004B5E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F080F681E94BACB004B5E95 /* WHScrollContentView */;
+			targetProxy = 8F080F7E1E94BACB004B5E95 /* PBXContainerItemProxy */;
+		};
+		8F080F8A1E94BACB004B5E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F080F681E94BACB004B5E95 /* WHScrollContentView */;
+			targetProxy = 8F080F891E94BACB004B5E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F080F701E94BACB004B5E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F080F711E94BACB004B5E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F080F751E94BACB004B5E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F080F761E94BACB004B5E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F080F8F1E94BACB004B5E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F080F901E94BACB004B5E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F080F921E94BACB004B5E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
+				INFOPLIST_FILE = WHScrollContentView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.WHScrollContentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F080F931E94BACB004B5E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
+				INFOPLIST_FILE = WHScrollContentView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.WHScrollContentView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F080F951E94BACB004B5E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
+				INFOPLIST_FILE = WHScrollContentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.WHScrollContentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHScrollContentView.app/WHScrollContentView";
+			};
+			name = Debug;
+		};
+		8F080F961E94BACB004B5E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
+				INFOPLIST_FILE = WHScrollContentViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.WHScrollContentViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHScrollContentView.app/WHScrollContentView";
+			};
+			name = Release;
+		};
+		8F080F981E94BACB004B5E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
+				INFOPLIST_FILE = WHScrollContentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.WHScrollContentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WHScrollContentView;
+			};
+			name = Debug;
+		};
+		8F080F991E94BACB004B5E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WR5XKZ83R7;
+				INFOPLIST_FILE = WHScrollContentViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Woodyhang.WHScrollContentViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WHScrollContentView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F080F641E94BACB004B5E95 /* Build configuration list for PBXProject "WHScrollContentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F080F8F1E94BACB004B5E95 /* Debug */,
+				8F080F901E94BACB004B5E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F080F911E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F080F921E94BACB004B5E95 /* Debug */,
+				8F080F931E94BACB004B5E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F080F941E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F080F951E94BACB004B5E95 /* Debug */,
+				8F080F961E94BACB004B5E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F080F971E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F080F981E94BACB004B5E95 /* Debug */,
+				8F080F991E94BACB004B5E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F080F611E94BACB004B5E95 /* Project object */;
+}
