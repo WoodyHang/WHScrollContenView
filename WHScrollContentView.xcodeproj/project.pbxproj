@@ -14,6 +14,9 @@
 		8F080F771E94BACB004B5E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F080F751E94BACB004B5E95 /* LaunchScreen.storyboard */; };
 		8F080F821E94BACB004B5E95 /* WHScrollContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F811E94BACB004B5E95 /* WHScrollContentViewTests.swift */; };
 		8F080F8D1E94BACB004B5E95 /* WHScrollContentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F8C1E94BACB004B5E95 /* WHScrollContentViewUITests.swift */; };
+		8F080F9C1E94BB4A004B5E95 /* WHScrollTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F9B1E94BB4A004B5E95 /* WHScrollTitleView.swift */; };
+		8F080F9E1E94EA3A004B5E95 /* WHTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080F9D1E94EA3A004B5E95 /* WHTestViewController.swift */; };
+		8F080FA21E94ED47004B5E95 /* WHScrollContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F080FA11E94ED47004B5E95 /* WHScrollContenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8F080F881E94BACB004B5E95 /* WHScrollContentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHScrollContentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F080F8C1E94BACB004B5E95 /* WHScrollContentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHScrollContentViewUITests.swift; sourceTree = "<group>"; };
 		8F080F8E1E94BACB004B5E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F080F9B1E94BB4A004B5E95 /* WHScrollTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHScrollTitleView.swift; sourceTree = "<group>"; };
+		8F080F9D1E94EA3A004B5E95 /* WHTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHTestViewController.swift; sourceTree = "<group>"; };
+		8F080FA11E94ED47004B5E95 /* WHScrollContenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHScrollContenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		8F080F6B1E94BACB004B5E95 /* WHScrollContentView */ = {
 			isa = PBXGroup;
 			children = (
+				8F080F9A1E94BAF7004B5E95 /* WHScrollContentViewLib */,
 				8F080F6C1E94BACB004B5E95 /* AppDelegate.swift */,
 				8F080F6E1E94BACB004B5E95 /* ViewController.swift */,
+				8F080F9D1E94EA3A004B5E95 /* WHTestViewController.swift */,
 				8F080F701E94BACB004B5E95 /* Main.storyboard */,
 				8F080F731E94BACB004B5E95 /* Assets.xcassets */,
 				8F080F751E94BACB004B5E95 /* LaunchScreen.storyboard */,
@@ -123,6 +131,15 @@
 				8F080F8E1E94BACB004B5E95 /* Info.plist */,
 			);
 			path = WHScrollContentViewUITests;
+			sourceTree = "<group>";
+		};
+		8F080F9A1E94BAF7004B5E95 /* WHScrollContentViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				8F080F9B1E94BB4A004B5E95 /* WHScrollTitleView.swift */,
+				8F080FA11E94ED47004B5E95 /* WHScrollContenView.swift */,
+			);
+			name = WHScrollContentViewLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F080F9C1E94BB4A004B5E95 /* WHScrollTitleView.swift in Sources */,
 				8F080F6F1E94BACB004B5E95 /* ViewController.swift in Sources */,
 				8F080F6D1E94BACB004B5E95 /* AppDelegate.swift in Sources */,
+				8F080F9E1E94EA3A004B5E95 /* WHTestViewController.swift in Sources */,
+				8F080FA21E94ED47004B5E95 /* WHScrollContenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +534,7 @@
 				8F080F931E94BACB004B5E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F080F941E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +543,7 @@
 				8F080F961E94BACB004B5E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F080F971E94BACB004B5E95 /* Build configuration list for PBXNativeTarget "WHScrollContentViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +552,7 @@
 				8F080F991E94BACB004B5E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
